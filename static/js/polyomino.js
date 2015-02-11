@@ -103,7 +103,7 @@ function rotation(array) {
             res[x][y]=array[height-y-1][x]
             /* Rotation anti-horaire */
             // res[x][y]=array[y][width-x-1]
-            /* Transposition */
+            /* Transposition or tranlation ?*/
             // res[x][y]=array[height-y-1][width-x-1]
         }
     }
